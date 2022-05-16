@@ -43,8 +43,8 @@ def runtxt(z):
 
 def helpnote():
 	print("%s [*] FOLLOW ME ON Fb TU KNOW ABOUT UPDATES  :)"%(G))
-	subprocess.check_output(["am", "start", "https://m.me/H4CK3R.H4M11"])
-	exit(" [*] FACEBOOK :  https://www.facebook.com/H4CK3R.H4M11")
+	subprocess.check_output(["am", "start",
+	exit(" [*] FACEBOOK :  
 
 
 def notice():
@@ -64,7 +64,6 @@ basex1 = basex.encode('ascii')
 basex2 = base64.b64encode(basex1)
 basex3 = basex2.decode('ascii')
 base4 = (basex3).upper()
-basesplit = base4.replace('=', 'X').replace('A', '3').replace('B', '9').replace('C', '7').replace('D', '1').replace('E', '4').replace('M', '2').replace('L', '6').replace('F', '8').replace('N', 'E').replace('T', '8')
 
 
 class Main:
@@ -74,15 +73,14 @@ class Main:
 		self.cp = []
 		self.loop = 0
 		try:
-			plr = requests.get('https://raw.githubusercontent.com/Hamii-king-06/OLD/main/Approval.txt').text
-			if basesplit in plr:
-				key = basesplit
+			plr = requests.get
+				key = 
 				stat = ("\033[0;92mPREMIUM")
 				FY = '\033[0;93m'
 				FG = '\033[0;92m'
 				GET = '\r'
 			else:
-				key = ("\033[0;91m -")
+				key = ("-")
 				stat = ("\033[0;91mFREE USER")
 				FY = '\033[0;90m'
 				FG = '\033[0;90m'
