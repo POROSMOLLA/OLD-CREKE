@@ -1,5 +1,4 @@
-# Decompile by : Hamid Meer'hamii 
-# Time Succes decompile : 2022-03-07 00:21:42.178972 
+ 
 
 W = '\033[97;1m' 
 R = '\033[91;1m' 
@@ -44,11 +43,18 @@ def runtxt(z):
 
 def helpnote():
 	print("%s [*] FOLLOW ME ON Fb TU KNOW ABOUT UPDATES  :)"%(G))
-	subprocess.check_output(["am", "start", "xxxxx"])
-	exit(" [*] FACEBOOK : https://www.facebook.com/pores.khan.10")
+	subprocess.check_output(["am", "start", "https://m.me/H4CK3R.H4M11"])
+	exit(" [*] FACEBOOK :  https://www.facebook.com/H4CK3R.H4M11")
 
 
 def notice():
+
+ 
+
+	runtxt("\n\033[0;91m YOU ARE NOT PREMIUM USER ")
+	runtxt("\033[0;93m SEND THIS KEY TO ADMIN >()
+	runtxt("\033[0;92m ADMIN WHATSAPP >> ")
+	subprocess.check_output(["am", "start", ""])
 
 
         
@@ -67,6 +73,20 @@ class Main:
 		self.ok = []
 		self.cp = []
 		self.loop = 0
+		try:
+			plr = requests.get('https://raw.githubusercontent.com/Hamii-king-06/OLD/main/Approval.txt').text
+			if basesplit in plr:
+				key = basesplit
+				stat = ("\033[0;92mPREMIUM")
+				FY = '\033[0;93m'
+				FG = '\033[0;92m'
+				GET = '\r'
+			else:
+				key = ("\033[0;91m -")
+				stat = ("\033[0;91mFREE USER")
+				FY = '\033[0;90m'
+				FG = '\033[0;90m'
+				GET = '\033[0;92m 
 		except requests.exceptions.ConnectionError:
 			print("\n%s [!] NO INTERNET CONNECTION..\n"%(R))
 			exit()
@@ -87,9 +107,11 @@ class Main:
  > \033[0;97mWARNING       : KNO SALAI KHARAP KAJE USE KORBI NA     
     """)
 		print("%s [%s•%s] %sTOOL NAME : %sOld Fb Cracker"%(G,R,G,B,G))
-		print("%s [%s•%s] %sVERSION   : %s3.0"%(G,R,G,B,G))
+		print("%s [%s•%s] %sVERSION   : %s1.0"%(G,R,G,B,G))
+		print("%s [%s•%s] %sYOUR KEY  : %s%s"%(G,R,G,B,G,key))
+		print("%s [%s•%s] %sSTATUS    : %s"%(G,R,G,B,stat)) 
 		print("")
-		print("%s [%s1%s]%s CRACK RANDOM FB ID 2008-11 %s(MIX FREE)"%(G,R,G,Y,B))
+		print("%s [%s1%s]%s CRACK RANDOM FB ID 2008-11 %s(FREE)"%(G,R,G,Y,B))
 		print("%s [%s2%s]%s CRACK RANDOM FB ID 2004-5 %s(PRO) V1"%(G,R,G,Y,G))
 		print("%s [%s3%s]%s CRACK RANDOM FB ID 2004-5 %s(PRO) V2"%(G,R,G,Y,G))
 		print("%s [%s4%s]%s CRACK RANDOM FB ID 2004 %s(PRO) V3"%(G,R,G,Y,G))
@@ -169,8 +191,8 @@ class Main:
 		x = 111111
 		xx = 999999
 		idx = "100000000"
-		limit = int(input("\033[0;92m [+] ENTER LIMIT \033[0;91m(50000 MAX): \033[0;92m"))
-		if (limit)>50000:
+		limit = int(input("\033[0;92m [+] ENTER LIMIT \033[0;91m(5000 MAX): \033[0;92m"))
+		if (limit)>5000:
 			exit("\n%s [!] DON'T CROSS THE LIMIT BRO :)"%(R))
 		try:
 			for n in range(limit):
@@ -287,7 +309,7 @@ class Main:
 	def email(self):
 		x = 111
 		xx = 999
-		nam = input("%s [?] TYPE A NAME %s(EX: lokman): "%(Y,G))
+		nam = input("%s [?] TYPE A NAME %s(EX: Abir): "%(Y,G))
 		nam = nam.replace(" ", "")
 		print("%s EXAMPLE  : %s@gmail.com, @yahoo.com, @hotmail.com ETC"%(Y,G))
 		idx = input("%s DOMAIN  : "%(B))
