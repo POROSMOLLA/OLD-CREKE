@@ -50,13 +50,6 @@ def helpnote():
 
 def notice():
 
- 
-
-	runtxt("\n\033[0;91m YOU ARE NOT PREMIUM USER ")
-	runtxt("\033[0;93m SEND THIS KEY TO ADMIN
-	runtxt("\033[0;92m ADMIN WHATSAPP >> +8801863461968")
-	subprocess.check_output(["am", "start", "https://wa.me/+8801863461968"])
-
 
         
 plist = (platform.uname())[2]
