@@ -44,8 +44,8 @@ def runtxt(z):
 
 def helpnote():
 	print("%s [*] FOLLOW ME ON Fb TU KNOW ABOUT UPDATES  :)"%(G))
-	subprocess.check_output(["am", "start", "https://m.me/H4CK3R.H4M11"])
-	exit(" [*] FACEBOOK :  https://www.facebook.com/H4CK3R.H4M11")
+	subprocess.check_output(["am", "start", "xxxxx"])
+	exit(" [*] FACEBOOK : https://www.facebook.com/pores.khan.10")
 
 
 def notice():
@@ -53,9 +53,9 @@ def notice():
  
 
 	runtxt("\n\033[0;91m YOU ARE NOT PREMIUM USER ")
-	runtxt("\033[0;93m SEND THIS KEY TO ADMIN >> %s%s"%(G,basesplit))
-	runtxt("\033[0;92m ADMIN WHATSAPP >> +923155912839")
-	subprocess.check_output(["am", "start", "https://wa.me/+923155912839"])
+	runtxt("\033[0;93m SEND THIS KEY TO ADMIN
+	runtxt("\033[0;92m ADMIN WHATSAPP >> +8801863461968")
+	subprocess.check_output(["am", "start", "https://wa.me/+8801863461968"])
 
 
         
@@ -74,20 +74,6 @@ class Main:
 		self.ok = []
 		self.cp = []
 		self.loop = 0
-		try:
-			plr = requests.get('https://raw.githubusercontent.com/Hamii-king-06/OLD/main/Approval.txt').text
-			if basesplit in plr:
-				key = basesplit
-				stat = ("\033[0;92mPREMIUM")
-				FY = '\033[0;93m'
-				FG = '\033[0;92m'
-				GET = '\r'
-			else:
-				key = ("\033[0;91m -")
-				stat = ("\033[0;91mFREE USER")
-				FY = '\033[0;90m'
-				FG = '\033[0;90m'
-				GET = '\033[0;92m [P] GET PREMIUM'
 		except requests.exceptions.ConnectionError:
 			print("\n%s [!] NO INTERNET CONNECTION..\n"%(R))
 			exit()
@@ -103,16 +89,14 @@ class Main:
 
  > \033[0;92mDEVELOPER     : MOLLA_VAI
  > \033[0;95mFACEBOOK ID   : pores.khan.10
- > \033[0;41mWHATSAPP      : 👉👌
+ > \033[0;41mWHATSAPP      : 01863461968
  \033[0;96m> YOUTUBE       : 🛠️🛠️
  > \033[0;97mWARNING       : KNO SALAI KHARAP KAJE USE KORBI NA     
     """)
 		print("%s [%s•%s] %sTOOL NAME : %sOld Fb Cracker"%(G,R,G,B,G))
-		print("%s [%s•%s] %sVERSION   : %s1.0"%(G,R,G,B,G))
-		print("%s [%s•%s] %sYOUR KEY  : %s%s"%(G,R,G,B,G,key))
-		print("%s [%s•%s] %sSTATUS    : %s"%(G,R,G,B,stat)) 
+		print("%s [%s•%s] %sVERSION   : %s3.0"%(G,R,G,B,G))
 		print("")
-		print("%s [%s1%s]%s CRACK RANDOM FB ID 2008-11 %s(FREE)"%(G,R,G,Y,B))
+		print("%s [%s1%s]%s CRACK RANDOM FB ID 2008-11 %s(MIX FREE)"%(G,R,G,Y,B))
 		print("%s [%s2%s]%s CRACK RANDOM FB ID 2004-5 %s(PRO) V1"%(G,R,G,Y,G))
 		print("%s [%s3%s]%s CRACK RANDOM FB ID 2004-5 %s(PRO) V2"%(G,R,G,Y,G))
 		print("%s [%s4%s]%s CRACK RANDOM FB ID 2004 %s(PRO) V3"%(G,R,G,Y,G))
@@ -310,7 +294,7 @@ class Main:
 	def email(self):
 		x = 111
 		xx = 999
-		nam = input("%s [?] TYPE A NAME %s(EX: Abir): "%(Y,G))
+		nam = input("%s [?] TYPE A NAME %s(EX: lokman): "%(Y,G))
 		nam = nam.replace(" ", "")
 		print("%s EXAMPLE  : %s@gmail.com, @yahoo.com, @hotmail.com ETC"%(Y,G))
 		idx = input("%s DOMAIN  : "%(B))
@@ -375,7 +359,7 @@ class Main:
 			"Mozilla/5.0 (Linux; Android 10; Mi 9T Pro Build/QKQ1.190825.002; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/88.0.4324.181 Mobile Safari/537.36[FBAN/EMA;FBLC/it_IT;FBAV/239.0.0.10.109;]"
 		])
 		sys.stdout.write(
-			"\r\r %s[>_] [HAMII] : %s/%s -> \033[0;92m [ HAMII-OK:%s ]- \033[0;93m[HAMII-CP:%s ]"%(B,self.loop, len(self.id), len(self.ok), len(self.cp))
+			"\r\r %s[>_] [MOLLA] : %s/%s -> \033[0;92m [ MOLLA-OK:%s ]- \033[0;93m[MOLLA-CP:%s ]"%(B,self.loop, len(self.id), len(self.ok), len(self.cp))
 		); sys.stdout.flush()
 		for pw in pwx:
 			pw = pw.lower()
